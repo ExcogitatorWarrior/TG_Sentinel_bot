@@ -80,7 +80,7 @@ If you want to run the LLM with GPU using **llama-cpp-python**, you have two opt
 
 ## Running the Bot
 
-After you’ve configured `config.py` and created your Telegram session make sure that all files in a samme folder, then you can start the bot by running:
+After you’ve configured `config.py` and created your Telegram session make sure that all files in a same folder, then you can start the bot by running:
 
 ```bash
 python TG_Sentinel_lanucher.py
