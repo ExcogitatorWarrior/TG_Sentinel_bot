@@ -78,6 +78,13 @@ If you want to run the LLM with GPU using **llama-cpp-python**, you have two opt
 
 > This wheel is **llama-cpp-python version 0.3.16**, built with CUDA, compatible with **Python 3.13 on Windows**.
 
+## Running the Bot
+
+After you’ve configured `config.py` and created your Telegram session make sure that all files in a samme folder, then you can start the bot by running:
+
+```bash
+python TG_Sentinel_lanucher.py
+```
 ## Final Remarks
 
 Thank you for exploring **TG_Sentinel_bot**, a tool to filter Telegram channels of unwanted content.  
