@@ -13,7 +13,7 @@ The system is designed for flexibility and can be used for tasks like:
 ## Features
 - 🔗 **Channel tracking** – fetch messages from one or multiple channels
 - 🤖 **LLM-powered processing** – analyze message text with a local model (customizable)
--⚡ **FastAPI-based microservices** – both the database and the LLM backend are exposed via FastAPI servers    
+- ⚡ **FastAPI-based microservices** – both the database and the LLM backend are exposed via FastAPI servers
 - 🛡 **Smart filtering** – block ads, spam, or unwanted content using AI-based scoring  
 - 📤 **Automated reposting** – forward or reload messages into a target channel  
 - 🗄 **SQLite database** – keep track of messages and edits  
