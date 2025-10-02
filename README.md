@@ -85,7 +85,7 @@ You can set up the LLM in two ways:
    ```bash
    python DownloadLLM.py
    ```
-2. **Providing your own weights**
+2. **Providing your own weights.**
    You would have to place them locally and place attach within config.py, keep in mind, weights have to be compatible with llama-cpp-python library:
    ```python
    MODEL_PATH = "models/your_model.gguf"
