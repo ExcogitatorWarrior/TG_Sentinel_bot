@@ -78,6 +78,18 @@ If you want to run the LLM with GPU using **llama-cpp-python**, you have two opt
 
 > This wheel is **llama-cpp-python version 0.3.16**, built with CUDA, compatible with **Python 3.13 on Windows**.
 
+You can set up the LLM in two ways:
+
+1. **Automatic Download**  
+   Run:
+   ```bash
+   python DownloadLLM.py
+   ```
+2. **Providing your own weights**
+   You would have to place them locally and place attach within config.py, keep in mind, weights have to be compatible with llama-cpp-python library:
+   ```python
+   MODEL_PATH = "models/your_model.gguf"
+   ```
 ## Running the Bot
 
 After you’ve configured `config.py` and created your Telegram session make sure that all files in a same folder, then you can start the bot by running:
